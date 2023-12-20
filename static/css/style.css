@@ -14,7 +14,7 @@ body, html {
     text-align:center;
 }
 
-.tasktext .underline{
+h1::before{
     content: '';
     position: absolute;
     height: 2px;
@@ -23,6 +23,7 @@ body, html {
     left: 0;
     bottom: 0;
 }
+
 h1{
     color:  #7600bc;
     margin-top:20%;
